@@ -5,6 +5,9 @@ from nltk.corpus import stopwords
 import string
 from nltk.stem import PorterStemmer
 
+# Download NLTK data if not already downloaded
+nltk.download('punkt')
+nltk.download('stopwords')
 
 def transform_text(text):
     # Convert to lowercase and tokenize
@@ -46,4 +49,3 @@ if st.button("Predict"):
     st.header("Spam")
   else:
     st.header("Not Spam")
-
