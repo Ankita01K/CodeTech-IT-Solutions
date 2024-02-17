@@ -66,7 +66,7 @@
 
 # **Clone the repository:**
 
-git clone https://github.com/you/sms-spam-classification.git
+**git clone** [https://github.com/you/sms-spam-classification.git](https://github.com/Ankita01K/CodeTech-IT-Solutions.git)
 
 # **Install the required dependencies:**
 
