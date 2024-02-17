@@ -1,5 +1,6 @@
   
 # **SMS Spam Classification Using Machine Learning**  
+![Screenshot 2024-02-18 000925](https://github.com/Ankita01K/CodeTech-IT-Solutions/assets/123232024/993877e1-2420-493e-8774-0d67ea060ee6)
 
 
 # **Introduction**
