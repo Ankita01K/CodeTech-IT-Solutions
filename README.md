@@ -7,11 +7,12 @@
 **Welcome to the SMS Spam Classification project, my first task at CodTech IT Solutions during my internship. In this project, I aim to develop a machine learning model that can classify SMS messages as spam or ham (non-spam) accurately.**
 
 # **Objective**
+
 **The main objective of this project is to build a robust classification model that can automatically identify spam messages, thus helping users filter out unwanted or potentially harmful content.**
 
 # **Deployment**
 
-**The model is deployed using Streamlit and hosted on Render. You can access it here**.  [ https://sms-spam-classification-kj65.onrender.com/]
+**|The model is deployed using Streamlit and hosted on Render. You can access it here|**.( https://sms-spam-classification-kj65.onrender.com/)
 
 # **Technologies Used**
 **Python**
