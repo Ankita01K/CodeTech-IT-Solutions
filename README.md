@@ -12,7 +12,7 @@
 
 # **Deployment**
 
-**|The model is deployed using Streamlit and hosted on Render. You can access it here|**.( https://sms-spam-classification-kj65.onrender.com/)
+**The model is deployed using Streamlit and hosted on Render. You can access it here**.https://sms-spam-classification-kj65.onrender.com/
 
 # **Technologies Used**
 **Python**
