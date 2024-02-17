@@ -11,17 +11,23 @@
 
 # **Deployment**
 
-**The model is deployed using Streamlit and hosted on Render. You can access it here**.[ https://sms-spam-classification-kj65.onrender.com/]
+**The model is deployed using Streamlit and hosted on Render. You can access it here**.  [ https://sms-spam-classification-kj65.onrender.com/]
 
 # **Technologies Used**
 **Python**
+
 **pandas**
-**scikit-learn
+
+**scikit-learn**
+
 **nltk**
-**seaborn
-**matplotlib
-**pickle**
+
+**seaborn**
+
+**matplotlib**
+
 **Streamlit** 
+
 **Render**
 
 # **Dataset Description**
@@ -57,8 +63,11 @@
 **Saved the trained Multinomial Naive Bayes model using the pickle library for future use.**
 
 # **Usage**
+
 # **Clone the repository:**
+
 git clone https://github.com/you/sms-spam-classification.git
 
 # **Install the required dependencies:**
+
 pip install -r requirements.txt
