@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 # 2-**Credit Card Fraud Detection Using Machine Learning**
 
-![Screenshot 2024-02-19 153157](https://github.com/Ankita01K/CodeTech-IT-Solutions/assets/123232024/2e8139f6-0fbb-4de0-9236-23347fb38bcd)
+![Screenshot 2024-02-19 224119](https://github.com/Ankita01K/CodeTech-IT-Solutions/assets/123232024/be3bf946-d106-471b-9366-e7bc44c8bff1)
 
 
 ## **Overview**
