@@ -1,5 +1,5 @@
   
-# **SMS Spam Classification Using Machine Learning**  
+# 1-**SMS Spam Classification Using Machine Learning**  
 ![Screenshot 2024-02-18 000925](https://github.com/Ankita01K/CodeTech-IT-Solutions/assets/123232024/993877e1-2420-493e-8774-0d67ea060ee6)
 
 
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 
 
-#**Credit Card Fraud Detection Using Machine Learning**
+# 2-**Credit Card Fraud Detection Using Machine Learning**
 
 ## **Overview**
 
@@ -87,7 +87,9 @@ pip install -r requirements.txt
 
 
 # **Dataset Information**
+
 **Features**: **The dataset consists of various features derived from PCA transformation.**
+
 **Target** Variable: **'Class' denotes the transaction class, with 1 representing fraud and 0 representing legitimate transactions.**
 
 # **Methodology**
@@ -114,11 +116,17 @@ pip install -r requirements.txt
 |Random Forest (with Feature Importance)|100.00%|99.98%|1.00|1.00|1.00|1.00|1.00|1.00|
 
 # **Technologies Used**
+
 **Python**
+
 **pandas**
+
 **NumPy**
+
 **scikit-learn**
+
 **seaborn**
+
 **Matplotlib**
 
 # **Usage**
