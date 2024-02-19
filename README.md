@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 # **Methodology**
 
-**Data Preprocessing**: Checking for null values, handling duplicates, and standardizing the 'Amount' feature.
+**|.|Data Preprocessing**: Checking for null values, handling duplicates, and standardizing the 'Amount' feature.|
 
 **Handling Imbalanced Datasets**: Using Synthetic Minority Oversampling Technique (SMOTE) to oversample the minority class.
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 **Feature Importance**: Analyzing feature importance using Random Forest classifier.
 
-**Model Deployment**: Deploy the selected model in a production environment for real-time fraud detection. Implement monitoring and alerting systems to respond to detected fraudulent activities.
+**Model Deployment**: Model Deployment: Deployed the selected model on the Streamlit.
 
 # **Model Evaluation Results**
 
