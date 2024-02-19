@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 **Feature Importance**: Analyzing feature importance using Random Forest classifier.
 
-**Model Deployment**: Model Deployment: Deployed the selected model on the Streamlit.
+**Model Deployment**: Model Deployment: Deployed the selected model on the Streamlit using Render.
 
 # **Model Evaluation Results**
 
