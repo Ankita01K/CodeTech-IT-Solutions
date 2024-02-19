@@ -73,3 +73,66 @@
 # **Install the required dependencies:**
 
 pip install -r requirements.txt
+
+
+
+
+
+
+#**Credit Card Fraud Detection Using Machine Learning**
+
+## **Overview**
+
+**This project focuses on building a model to detect fraudulent credit card transactions. It utilizes a dataset containing information about credit card transactions and experiments with algorithms like Logistic Regression, Decision Trees, and Random Forests to classify transactions as fraudulent or legitimate. This is the second  task of my internship on CodTech IT Solutions.**
+
+
+# **Dataset Information**
+**Features**: **The dataset consists of various features derived from PCA transformation.**
+**Target** Variable: **'Class' denotes the transaction class, with 1 representing fraud and 0 representing legitimate transactions.**
+
+# **Methodology**
+
+**Data Preprocessing**: Checking for null values, handling duplicates, and standardizing the 'Amount' feature.
+
+**Handling Imbalanced Datasets**: Using Synthetic Minority Oversampling Technique (SMOTE) to oversample the minority class.
+
+**Model Building**: Training Logistic Regression, Decision Tree, and Random Forest classifiers.
+
+**Model Evaluation**: Evaluating the performance of each model using accuracy, classification report, and confusion matrix.
+
+**Feature Importance**: Analyzing feature importance using Random Forest classifier.
+
+**Model Deployment**: Deploy the selected model in a production environment for real-time fraud detection. Implement monitoring and alerting systems to respond to detected fraudulent activities.
+
+# **Model Evaluation Results**
+
+Model	Training Accuracy|Testing Accuracy|Precision (Class 0)|Precision (Class 1)|Recall (Class 0)|Recall (Class 1)|F1-Score (Class 0)|F1-Score (Class 1)
+Logistic Regression	|95.87%|95.87%|0.94|0.98|0.98|0.94|0.96|0.96
+Decision Tree|100.00%|99.82%|1.00|1.00|1.00|1.00|1.00|1.00
+Random Forest|100.00%|99.99%|1.00|1.00|1.00|1.001.00|1.00
+Random Forest (with Feature Importance)|100.00%|99.98%|1.00|1.00|1.00|1.00|1.00|1.00
+
+# **Technologies Used**
+**Python**
+**pandas**
+**NumPy**
+**scikit-learn**
+**seaborn**
+**Matplotlib**
+
+# **Usage**
+
+## **Clone the repository**
+
+**git clone**
+
+https://github.com/your-username/credit-card-fraud-detection.git
+
+**Install the required dependencies**
+
+
+pip install -r requirements.txt
+
+**Run the Streamlit App**
+
+streamlit run app.py
