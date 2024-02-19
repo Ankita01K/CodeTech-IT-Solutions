@@ -21,18 +21,6 @@ html_temp = """
 <h2 style="color: white; text-align:center;">Credit Card Fraud Detection</h2>
 </div><br>"""
 st.markdown(html_temp, unsafe_allow_html=True)
-#addimg backgroud image
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://png.pngtree.com/png-vector/20220725/ourmid/pngtree-data-robbery-and-crime-fraud-with-credit-card-and-thief-png-image_6072192.png
-");
-background-size: cover;
-}
-</style>
-'''
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Define slider inputs for features
 v2 = st.sidebar.slider(label="V2", min_value=-72.00, max_value=22.00, step=0.01)
@@ -58,15 +46,19 @@ st.subheader('Transaction Information')
 st.table(df_coll)
 
 # Make prediction when 'PREDICT' button is clicked
-if st.button('predict'):
+# Make prediction when 'PREDICT' button is clicked
+if st.button('Predict'):
     # Make prediction using the loaded model if it was loaded successfully
     if model is not None:
         st.write("Attempting to make predictions with the model...")
-        prediction = model.predict(df_coll)
-        st.write("Prediction:", prediction)
-        if prediction[0] == 0:
-            st.success('Transaction is Legitimate :)')
-        elif prediction[0] == 1:
-            st.warning('ALARM! Transaction is FRAUDULENT :(')
+        try:
+            prediction = model.predict(df_coll)
+            st.write("Prediction:", prediction)
+            if prediction[0] == 0:
+                st.success('Transaction is Legitimate :)')
+            elif prediction[0] == 1:
+                st.warning('ALARM! Transaction is FRAUDULENT :(')
+        except Exception as e:
+            st.error(f"An error occurred: {str(e)}")
     else:
         st.error("Model was not loaded successfully. Please check the model file.")
