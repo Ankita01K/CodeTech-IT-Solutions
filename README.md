@@ -137,10 +137,10 @@ pip install -r requirements.txt
 ## **Clone the repository**
 
 **git clone** https://github.com/Ankita01K/CodeTech-IT-Solutions.git
+
 **Install the required dependencies**
 
-
-pip install -r requirements.txt
+**pip install** -r requirements.txt
 
 **Run the Streamlit App**
 
