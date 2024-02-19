@@ -118,6 +118,9 @@ pip install -r requirements.txt
 |Random Forest|100.00%|99.99%|1.00|1.00|1.00|1.00|1.00|1.00|
 |Random Forest (with Feature Importance)|100.00%|99.98%|1.00|1.00|1.00|1.00|1.00|1.00|
 
+# **Deployment**
+**The model is deployed on Render. You can access it here.**  [https://sms-spam-classification-kj65.onrender.com/](https://creditcarddetection.onrender.com/)
+
 # **Technologies Used**
 
 **Python**
