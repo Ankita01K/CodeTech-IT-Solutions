@@ -81,6 +81,9 @@ pip install -r requirements.txt
 
 # 2-**Credit Card Fraud Detection Using Machine Learning**
 
+![Screenshot 2024-02-19 153157](https://github.com/Ankita01K/CodeTech-IT-Solutions/assets/123232024/2e8139f6-0fbb-4de0-9236-23347fb38bcd)
+
+
 ## **Overview**
 
 **This project focuses on building a model to detect fraudulent credit card transactions. It utilizes a dataset containing information about credit card transactions and experiments with algorithms like Logistic Regression, Decision Trees, and Random Forests to classify transactions as fraudulent or legitimate. This is the second  task of my internship on CodTech IT Solutions.**
