@@ -68,7 +68,7 @@
 
 # **Clone the repository:**
 
-**git clone** [[https://github.com/you/sms-spam-classification.git](https://github.com/Ankita01K/CodeTech-IT-Solutions.git)](https://github.com/Ankita01K/CodeTech-IT-Solutions.git)
+**git clone** https://github.com/Ankita01K/CodeTech-IT-Solutions.git
 
 # **Install the required dependencies:**
 
@@ -136,8 +136,7 @@ pip install -r requirements.txt
 
 ## **Clone the repository**
 
-**git clone**   [https://github.com/your-username/credit-card-fraud-detection.git](https://github.com/Ankita01K/CodeTech-IT-Solutions.git)
-
+**git clone** https://github.com/Ankita01K/CodeTech-IT-Solutions.git
 **Install the required dependencies**
 
 
