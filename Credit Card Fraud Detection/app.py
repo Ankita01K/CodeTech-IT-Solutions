@@ -9,7 +9,7 @@ def load_model(model_path):
     return model
 
 # Load your trained random forest model
-model_path = 'random_forest_model.pkl'
+model_path = 'RandomForest_Model.pkl'
 model = load_model(model_path)
 
 # Define sidebar title
