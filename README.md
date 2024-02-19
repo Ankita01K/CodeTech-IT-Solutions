@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 # **Methodology**
 
-**|.|Data Preprocessing**: Checking for null values, handling duplicates, and standardizing the 'Amount' feature.|
+**|.|Data Preprocessing**: Checking for null values, handling duplicates, and standardizing the 'Amount' feature.
 
 **Handling Imbalanced Datasets**: Using Synthetic Minority Oversampling Technique (SMOTE) to oversample the minority class.
 
