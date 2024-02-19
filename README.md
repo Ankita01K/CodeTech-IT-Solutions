@@ -106,11 +106,12 @@ pip install -r requirements.txt
 
 # **Model Evaluation Results**
 
-Model	Training Accuracy|Testing Accuracy|Precision (Class 0)|Precision (Class 1)|Recall (Class 0)|Recall (Class 1)|F1-Score (Class 0)|F1-Score (Class 1)
-Logistic Regression	|95.87%|95.87%|0.94|0.98|0.98|0.94|0.96|0.96
-Decision Tree|100.00%|99.82%|1.00|1.00|1.00|1.00|1.00|1.00
-Random Forest|100.00%|99.99%|1.00|1.00|1.00|1.001.00|1.00
-Random Forest (with Feature Importance)|100.00%|99.98%|1.00|1.00|1.00|1.00|1.00|1.00
+|Model	Training Accuracy|Testing Accuracy|Precision (Class 0)|Precision (Class 1)|Recall (Class 0)|Recall (Class 1)|F1-Score (Class 0)|F1-Score (Class 1)|
+|-|-|-|-|-|-|-|-|
+|Logistic Regression	|95.87%|95.87%|0.94|0.98|0.98|0.94|0.96|0.96|
+|Decision Tree|100.00%|99.82%|1.00|1.00|1.00|1.00|1.00|1.00|
+|Random Forest|100.00%|99.99%|1.00|1.00|1.00|1.001.00|1.00|
+|Random Forest (with Feature Importance)|100.00%|99.98%|1.00|1.00|1.00|1.00|1.00|1.00|
 
 # **Technologies Used**
 **Python**
