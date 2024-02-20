@@ -148,3 +148,59 @@ pip install -r requirements.txt
 **Run the Streamlit App**
 
 streamlit run app.py
+
+
+
+
+
+
+# 3-**Movie Genre Classification**
+
+# **Introduction**
+
+**This project aims to classify movie genres based on their descriptions using various machine learning algorithms. The classification of movie genres can be beneficial for content recommendation systems, movie databases, and streaming platforms**
+
+# **Overview**
+
+**The project involves preprocessing the movie descriptions, exploring different machine learning models, and evaluating their performance. The models considered include Multinomial Naive Bayes, Gaussian Naive Bayes, Bernoulli Naive Bayes, Logistic Regression.**
+
+# **Dataset Information**
+
+**The dataset used for this project is sourced from Kaggle and contains movie titles, genres, and descriptions.**
+
+**Dataset Source**: Movie Genre Classification Dataset on Kaggle
+
+**Description**: This dataset comprises movie titles, genres, and descriptions.
+
+**Features**:
+
+**Title**: Title of the movie.
+
+**Genre**: Genre(s) of the movie.
+
+**Description**: Description of the movie.
+
+
+# **Methodology**
+
+**Data Preprocessing**: The movie descriptions are preprocessed to remove noise, including special characters, stopwords, and stemming to normalize the text data.
+
+**Feature Engineering**: Text features are extracted using the Term Frequency-Inverse Document Frequency (TF-IDF) vectorization technique to represent the textual information numerically.
+
+**Model Selection**: Several machine learning algorithms are explored for genre classification, including Multinomial Naive Bayes, Gaussian Naive Bayes, Bernoulli Naive Bayes, Logistic Regression.
+
+**Model Evaluation**: The models are evaluated based on their accuracy scores on both training and validation datasets, with confusion matrices providing additional insights into model performance.
+
+#**Tools Used**
+
+**Python**: Programming language used for data preprocessing and model implementation.
+
+**NLTK (Natural Language Toolkit)**: Library for natural language processing tasks such as text preprocessing.
+
+**Scikit-learn**: Python library for machine learning tasks including model implementation and evaluation.
+
+
+
+
+
+
